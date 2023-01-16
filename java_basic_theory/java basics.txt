@@ -1,3 +1,11 @@
 java is a high-level language
 java is machine independant language
 Java is an Object-Oriented Programming (OOP) structure. Java is a class-based programming language. Java technology is used for developing both, applets and applications. Provides an easy to use: Avoids many of the pitfalls of other languages.
+
+java first program
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}  
+java
