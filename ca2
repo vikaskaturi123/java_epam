@@ -1,0 +1,20 @@
+//illestrate the decendingset using treemap
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        TreeMap<Integer,String> map = new TreeMap<Integer, String>();
+        map.put(1,"a");
+        map.put(2,"b");
+        map.put(3,"c");
+        map.put(4,"d");
+        map.put(5,"e");
+
+        System.out.println("TreeMap Values :-" + map);
+        NavigableSet<Integer> set1 = map.descendingKeySet();
+
+        System.out.println("Navigable set values are: "
+                + set1);
+
+    }
+}
